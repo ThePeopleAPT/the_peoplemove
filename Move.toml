@@ -1,0 +1,10 @@
+[package]
+name = 'the_people'
+version = '1.0.0'
+
+[addresses]
+ThePeople = "0x5a1e84cdd217034d764abb91bf20aa0536c5a8c900831a37b393fe3af98c3f55"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev="main"}
+MoveStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/move-stdlib/", rev="main"}
